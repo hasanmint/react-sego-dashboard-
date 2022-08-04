@@ -14,7 +14,9 @@ const SidebarNav = () => {
 
                         <li class="sidebar-item"> <Link to="/orders"  class="sidebar-link" 
                                 aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span
-                                    class="hide-menu">Orders</span></Link>
+                                    class="hide-menu">Orders</span>
+                                    <span class="badge badge-primary notify-no rounded-circle ml-3">25</span>
+                                    </Link>
                         </li>
                        
                        
