@@ -1,9 +1,10 @@
 import React from 'react';
+import Main from './Dashboard/Main/Main';
 
 const Home = () => {
     return (
         <>
-          Home  
+          <Main></Main>
         </>
     );
 };
