@@ -1,5 +1,8 @@
 import React from 'react';
-
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import OrderSummeryChart from './Chart/OrderSummeryChart';
+import PieChart from './Chart/PieChart';
+import RevenueChart from './Chart/RevenueChart';
 const ContainerPage = () => {
     return (
         <>
@@ -16,8 +19,8 @@ const ContainerPage = () => {
                                                 <span>Total Menus</span>
                                             </div>
                                             <div class="align-self-center">
-                                            <i class="fas fa-bars fa-3x"></i>
-                                            
+                                                <i class="fas fa-bars fa-3x"></i>
+
                                             </div>
                                         </div>
                                     </div>
@@ -34,7 +37,7 @@ const ContainerPage = () => {
                                                 <span>Total Revenue</span>
                                             </div>
                                             <div class="align-self-center">
-                                            <i class="fas fa-dollar-sign fa-3x"></i>
+                                                <i class="fas fa-dollar-sign fa-3x"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -52,7 +55,7 @@ const ContainerPage = () => {
                                                 <span>Total Oders</span>
                                             </div>
                                             <div class="align-self-center">
-                                            <i class="fas fa-cart-plus fa-3x"></i>
+                                                <i class="fas fa-cart-plus fa-3x"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -69,8 +72,8 @@ const ContainerPage = () => {
                                                 <span>Total Customers</span>
                                             </div>
                                             <div class="align-self-center">
-                                            <i class="fas fa-users fa-3x"></i>
-                                            
+                                                <i class="fas fa-users fa-3x"></i>
+
                                             </div>
                                         </div>
                                     </div>
@@ -78,6 +81,50 @@ const ContainerPage = () => {
                             </div>
                         </div>
 
+                        {/* Rechart Row */}
+
+                        <div class="row">
+                            <div class="col-xl-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <OrderSummeryChart></OrderSummeryChart>
+                                        <div class="card-body cleartfix">
+                                            <div class="media align-items-stretch">
+                                                <div class="align-self-center">
+                                                </div>
+                                                <div class="media-body">
+
+                                                </div>
+                                                <div class="align-self-center">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-md-12">
+                                <div class="card">
+                                    <div class="card-content">
+                                    <RevenueChart></RevenueChart>
+                                        <div class="card-body cleartfix">
+                                            <div class="media align-items-stretch">
+                                                <div class="align-self-center">
+                                                </div>
+                                                <div class="media-body">
+
+                                                </div>
+                                                <div class="align-self-center">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
