@@ -7,6 +7,7 @@ import Orders from './components/Dashboard/Main/Pages/Orders';
 import Customers from './components/Dashboard/Main/Pages/Customers';
 import Analytics from './components/Dashboard/Main/Pages/Analytics';
 import Menus from './components/Dashboard/Main/Pages/Menus';
+import NotFoundPage from './components/Dashboard/NotFoundPage';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/menus" element={<Menus></Menus>} />
         <Route path="/customers" element={<Customers></Customers>} />
         <Route path="/analytics" element={<Analytics></Analytics>} />
+        <Route path="*" element={<NotFoundPage></NotFoundPage>} />
+
       </Routes>
     </div>
   );

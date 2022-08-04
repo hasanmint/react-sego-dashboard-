@@ -24,3 +24,58 @@ body{
   .media-body h3{
     font-size: 40px;
   }
+
+  
+.text-color{
+  color: #3E3F7A;
+  font-weight: 800;
+  font-size: 32px;
+  margin: 26px 16px;
+}
+
+.sidebar-nav #sidebarnav .sidebar-item.selected>.sidebar-link {
+  border-radius: 0 60px 60px 0;
+  color: #fff!important;
+  background: #EA7A9A;
+  box-shadow: 6B74E9;
+  opacity: 1;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #EA7A9A;
+}
+
+
+.btn-info {
+  color: #fff;
+  background-color: #EA7A9A;
+  border-color: #EA7A9A;
+}
+
+.bg-primary {
+  background-color: #EA7A9A!important;
+}
+
+.topbar .customize-input .form-control {
+  padding: 13px 250px 15px 30px;
+  color: #b8c3d5;
+  display: inline-block;
+  line-height: 13px;
+}
+
+
+.sidebar-nav #sidebarnav .sidebar-item .sidebar-link {
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 30px;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  line-height: 27px;
+  opacity: .7;
+  margin-right: 17px;
+  border-radius: 0 61px 60px 0;
+  margin-left: 17px;
+  border-radius: 0 61px 60px 0;
+}

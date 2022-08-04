@@ -1,5 +1,6 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import CustomerAppChart from './Chart/CustomerAppChart';
 import OrderSummeryChart from './Chart/OrderSummeryChart';
 import PieChart from './Chart/PieChart';
 import RevenueChart from './Chart/RevenueChart';
@@ -123,8 +124,52 @@ const ContainerPage = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
+
+                         {/* Rechart Row */}
+
+                         <div class="row">
+                            <div class="col-xl-8 col-md-12">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <CustomerAppChart></CustomerAppChart>
+                                        <div class="card-body cleartfix">
+                                            <div class="media align-items-stretch">
+                                                <div class="align-self-center">
+                                                </div>
+                                                <div class="media-body">
+
+                                                </div>
+                                                <div class="align-self-center">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* <div class="col-xl-4 col-md-12">
+                                <div class="card">
+                                    <div class="card-content">
+                                    <RevenueChart></RevenueChart>
+                                        <div class="card-body cleartfix">
+                                            <div class="media align-items-stretch">
+                                                <div class="align-self-center">
+                                                </div>
+                                                <div class="media-body">
+
+                                                </div>
+                                                <div class="align-self-center">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+
                     </div>
                 </div>
             </div>
