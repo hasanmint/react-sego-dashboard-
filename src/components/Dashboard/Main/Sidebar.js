@@ -26,22 +26,22 @@ const Sidebar = () => {
                         </li>
                        
                        
-                        <li class="sidebar-item"> <a class="sidebar-link has-arrow" href="javascript:void(0)"
+                        <li class="sidebar-item"> <Link to="/menus" class="sidebar-link has-arrow" href="javascript:void(0)"
                                 aria-expanded="false"><i data-feather="grid" class="feather-icon"></i><span
-                                    class="hide-menu">Menus </span></a>
+                                    class="hide-menu">Menus </span></Link>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="table-basic.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/submenu1"   class="sidebar-link"><span
                                             class="hide-menu">Submenu
-                                        </span></a>
+                                        </span></Link>
                                 </li>
-                                <li class="sidebar-item"><a href="table-dark-basic.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/submenu2"  class="sidebar-link"><span
                                             class="hide-menu"> Submenu
-                                        </span></a>
+                                        </span></Link>
                                 </li>
-                                <li class="sidebar-item"><a href="table-sizing.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/submenu3"  class="sidebar-link"><span
                                             class="hide-menu">
                                             Submenu
-                                        </span></a>
+                                        </span></Link>
                                 </li>
                                
                             </ul>
@@ -50,18 +50,18 @@ const Sidebar = () => {
                                 aria-expanded="false"><span class=" iconify feather-icon" data-icon="ph:users-light"></span><span
                                     class="hide-menu">Customers </span></Link>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="chart-morris.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/addnew"  class="sidebar-link"><span
                                             class="hide-menu"> Add New
-                                        </span></a>
+                                        </span></Link>
                                 </li>
-                                <li class="sidebar-item"><a href="chart-chart-js.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/members"  class="sidebar-link"><span
                                             class="hide-menu"> Members
-                                        </span></a>
+                                        </span></Link>
                                 </li>
-                                <li class="sidebar-item"><a href="chart-knob.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/general" class="sidebar-link"><span
                                             class="hide-menu">
                                             General Customers
-                                        </span></a>
+                                        </span></Link>
                                 </li>
                             </ul>
                         </li>
@@ -69,18 +69,18 @@ const Sidebar = () => {
                                 aria-expanded="false"><span class=" iconify feather-icon" data-icon="icon-park-outline:analysis"></span><span
                                     class="hide-menu">Analytics </span></Link>
                             <ul aria-expanded="false" class="collapse  first-level base-level-line">
-                                <li class="sidebar-item"><a href="-basic.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/analytics1"   class="sidebar-link"><span
                                             class="hide-menu">Submenu
-                                        </span></a>
+                                        </span></Link>
                                 </li>
-                                <li class="sidebar-item"><a href="dark-basic.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/analytics2"    class="sidebar-link"><span
                                             class="hide-menu"> Submenu
-                                        </span></a>
+                                        </span></Link>
                                 </li>
-                                <li class="sidebar-item"><a href="sizing.html" class="sidebar-link"><span
+                                <li class="sidebar-item"><Link to="/analytics3"    class="sidebar-link"><span
                                             class="hide-menu">
                                             Submenu
-                                        </span></a>
+                                        </span></Link>
                                 </li>
                                
                             </ul>
