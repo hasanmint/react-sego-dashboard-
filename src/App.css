@@ -9,3 +9,18 @@ body{
   background: #FFFFFF;
   color: #000000;
 }
+
+
+.card-bg{
+  width: 339px;
+  height: 168px;
+  background: linear-gradient(107.15deg, #EA7A9A 6.76%, #FAC7B6 99.2%);
+  box-shadow: 0px 1px 4px rgba(62, 73, 84, 0.04);
+  border-radius: 20px;
+  color: #F5F7FA;
+  
+  }
+
+  .media-body h3{
+    font-size: 40px;
+  }
